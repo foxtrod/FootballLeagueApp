@@ -13,7 +13,7 @@ import java.io.IOException;
  * Created by horbachevsky on 15.07.2016.
  */
 
-@WebServlet(name = "hello", urlPatterns = {"/"})
+@WebServlet(name = "hello", urlPatterns = {"/WelcomePage", ""})
 public class WelcomePage extends HttpServlet {
 
     @Override

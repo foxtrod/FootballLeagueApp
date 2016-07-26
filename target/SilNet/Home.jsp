@@ -8,25 +8,16 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <link href="${pageContext.request.contextPath}/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+  <base href="">
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
   <title>Start Page</title>
 </head>
 <body>
 
   <h2 align="center">Welcome page</h2>
 
-  <a href="/SilNet/allteams"><h3>All Teams</h3></a>
+  <a href="allteams"><h3>All Teams</h3></a>
 
-<table class="table table-bordered">
-  <tr>
-    <td>aaaaaa</td>
-    <td>bbbbbb</td>
-  </tr>
-  <tr>
-    <td>ccccc</td>
-    <td>dddd</td>
-  </tr>
-</table>
 
 </body>
 </html>

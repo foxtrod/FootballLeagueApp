@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="FootballLeagueApp:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="SilNet.war">
-      <element id="artifact" artifact-name="FootballLeagueApp:war exploded" />
-    </root>
-  </artifact>
-</component>

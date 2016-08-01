@@ -34,11 +34,8 @@ public class TeamService {
         }
     }
 
-    public void deleteTeam(Team team) {
-        team = em.find(Team.class, team.getId());
-        if (team != null) {
-            em.remove(team);
-        }
+    public void deleteTeam(Integer id) {
+        em.remove(getTeam(id));
     }
 
     public void addTeam(Team team) {

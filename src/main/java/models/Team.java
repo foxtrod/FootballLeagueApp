@@ -16,14 +16,14 @@ public class Team {
 
     }
 
-    public Team(Integer id, String name, Integer points) {
-        this.id = id;
+    public Team(String name, Integer points) {
+//        this.id = id;
         this.name = name;
         this.points = points;
     }
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getId() {
         return id;
     }

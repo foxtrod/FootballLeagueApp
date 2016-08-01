@@ -35,6 +35,12 @@
             <version>7.0</version>
             <scope>provided</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.efsavage.jquery</groupId>
+            <artifactId>jquery-maven</artifactId>
+            <version>1.8.2</version>
+        </dependency>
     </dependencies>
 
     <build>

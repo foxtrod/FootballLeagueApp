@@ -9,7 +9,8 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/css/bootstrap.min.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}js/jquery-3.1.0.js" rel="script">
     <title>All Teams</title>
 </head>
 <body>
@@ -43,7 +44,7 @@
             <%= i %>
         </td>
         <td>
-            <a href="team?teamID=<%= team.getId() %>"><%= team.getName()%></a>
+            <a href="allteams/<%= team.getId() %>"><%= team.getName()%></a>
         </td>
         <td>
             <%= team.getPoints()%>
@@ -58,6 +59,45 @@
     %>
     </tbody>
 </table>
+
+
+
+<form action="" method="post" class="form-group">
+    <div class="form-group">
+        <label for="teamName">Name</label>
+        <input type="text" name="name" class="form-control" id="teamName"/>
+        <input type="hidden" name="id">
+    </div>
+    <div class="form-group">
+        <label for="teamPoints">Points</label>
+        <input type="text" name="points" class="form-control" id="teamPoints"/>
+    </div>
+
+    <button type="submit" class="btn btn-default">Add Team</button>
+
+
+<%--<table class="table">--%>
+        <%--<tr>--%>
+            <%--<td>Team Name</td>--%>
+            <%--<td>--%>
+                <%--<input name="name" value='' type='text'/>--%>
+            <%--</td>--%>
+        <%--</tr>--%>
+        <%--</tr>--%>
+        <%--<tr>--%>
+            <%--<td>Points</td>--%>
+            <%--<td>--%>
+                <%--<input type="text" name="points" value=""/>--%>
+                <%--<input type="hidden" name="id" value=""/>--%>
+            <%--</td>--%>
+        <%--</tr>--%>
+        <%--<tr>--%>
+            <%--<td colspan="2" align="center">--%>
+                <%--<input type="submit" name="submit" value="Add Team"/>--%>
+            <%--</td>--%>
+        <%--</tr>--%>
+    <%--</table>--%>
+</form>
 
 </body>
 </html>

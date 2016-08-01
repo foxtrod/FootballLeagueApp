@@ -10,6 +10,7 @@
 <head>
   <base href="">
   <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <script src="js/jquery-3.1.0.js"></script>
   <title>Start Page</title>
 </head>
 <body>

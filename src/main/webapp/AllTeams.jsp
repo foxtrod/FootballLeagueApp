@@ -74,29 +74,6 @@
     </div>
 
     <button type="submit" class="btn btn-default">Add Team</button>
-
-
-<%--<table class="table">--%>
-        <%--<tr>--%>
-            <%--<td>Team Name</td>--%>
-            <%--<td>--%>
-                <%--<input name="name" value='' type='text'/>--%>
-            <%--</td>--%>
-        <%--</tr>--%>
-        <%--</tr>--%>
-        <%--<tr>--%>
-            <%--<td>Points</td>--%>
-            <%--<td>--%>
-                <%--<input type="text" name="points" value=""/>--%>
-                <%--<input type="hidden" name="id" value=""/>--%>
-            <%--</td>--%>
-        <%--</tr>--%>
-        <%--<tr>--%>
-            <%--<td colspan="2" align="center">--%>
-                <%--<input type="submit" name="submit" value="Add Team"/>--%>
-            <%--</td>--%>
-        <%--</tr>--%>
-    <%--</table>--%>
 </form>
 
 </body>
